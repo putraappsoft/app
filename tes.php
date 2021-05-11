@@ -1,3 +1,3 @@
 <?php
-header('Location: https://firebasestorage.googleapis.com/v0/b/putraservervideo.appspot.com/o/Video%2FDownload%20Film%20Mortal%20Kombat%20(2021)%20Sub%20Indo%20Link%20Google%20Drive.mp4?alt=media&token=6f30fe73-ea69-450e-86ce-c9067db5aa17');
+header('Location: https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1620718056/ei/iN2ZYJ7ZOaDHz7sPtaCt2Ak/ip/36.81.10.167/id/u8CZ49jSsC0.1/source/yt_live_broadcast/requiressl/yes/tx/24027398/txs/24027395%2C24027396%2C24027397%2C24027398%2C24027399%2C24027400/hfr/1/playlist_duration/30/manifest_duration/30/vprv/1/go/1/nvgoi/1/keepalive/yes/fexp/24001373%2C24007246/beids/9466586/dover/11/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Ctx%2Ctxs%2Chfr%2Cplaylist_duration%2Cmanifest_duration%2Cvprv%2Cgo%2Citag%2Cplaylist_type/sig/AOq0QJ8wRQIhALfWldZWO0jlB3ZQt9seDizCR8hacYUdpPJK8FPZBjDvAiAyGUPPJ4fu1G5CyS4irfnNJTvqeqCiMhGbgNPo3HnbqA%3D%3D/file/index.m3u8');
 ?>
