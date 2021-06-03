@@ -1,3 +1,3 @@
 <?php
-header('Location: https://lk21official.com/videoplayback?WkgwcVlPeGI5cHoxa3FDL25xMUdPaVhOSjd1OVpGRmpkYW4vVjZWSWVianZJbDl0clJYYUpNeTlIVjQ4eE9VRGFYWkRPbmE3NTlPc1h6Qy9UQXMwdUhTVHZzYVEwRjhROWhHL01HMWcycEk9OjrBKyjcqS0oaAVDxlt3%2FpEc');
+header('Location: https://lk21official.com/videoplayback?dm1UTkQ3UDd4Wjdpc05ZSzAwWXI5ZStMalhUSlFkbkZPWmhHSm1xRGZPbmc2NU1aTnR0UFBYaHBQS0RBd1NMbWtuQkQ1UEV4Zm1IY3M0V0tpOENQZlF4UXdFSHZBOTYvL1FNR0pBeUl4c0U9OjpXUg3WCpJzgF2T6%2Fj8QoKB');
 ?>
