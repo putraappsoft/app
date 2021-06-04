@@ -1,3 +1,3 @@
 <?php
-header('Location: https://lk21official.com/videoplayback?UXNTZEMyRXJGbzJKcDlFelAyaHQ4WjZqS2lMWUdlclZPTnlIaFgzbGtsdnZxOFdHZUZRS2ZlN3ZPWHZhNkVmTmlTOUpvL3J5Mk5FMC9YN1JXTGJZRWs0R3dkY1phQU5Ha0srakhWYm1EVW89OjpnHKXvsWXntOwWqnlC7T13');
+header('Location: https://a.playdrive.xyz/link/Zx4tjfpu6M5YHbp/360/ead05c6f3c8a13b57409381632d080e9/');
 ?>
