@@ -1,3 +1,3 @@
 <?php
-header('Location: https://a.playdrive.xyz/link/Zx4tjfpu6M5YHbp/360/ead05c6f3c8a13b57409381632d080e9/');
+header('Location: https://www.googleapis.com/drive/v3/files/1-VmD2-uJA2sThBged23c1CmS3Nknq3Nn?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
 ?>
