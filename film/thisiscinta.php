@@ -1,3 +1,3 @@
 <?php
-header('Location: https://firebasestorage.googleapis.com/v0/b/putraservervideo.appspot.com/o/Video%2FThis%20Is%20Cinta%20(2015)%20on%20putraapps.MP4?alt=media&token=52c9e6c1-ca39-424e-bfd0-db54c4f8bf00');
+header('Location: https://www.googleapis.com/drive/v3/files/1_XjxARYUjafzivLITz8KI035ote8a1pA?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
 ?>
