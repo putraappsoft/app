@@ -1,3 +1,3 @@
 <?php
-header('Location: https://firebasestorage.googleapis.com/v0/b/metalogsi.appspot.com/o/[doramaindo.id]Train.to.Busan.2.Peninsula.2020.360p.WEB-DL.DD5.1.H.264-EVO.mp4?alt=media&token=35c3607e-0de5-454b-947b-97c3b11c91ba');
+header('Location: https://www.googleapis.com/drive/v3/files/1lw4hItOKN5P3yfzDBKj47e_Y2paTfdQr?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
 ?>
