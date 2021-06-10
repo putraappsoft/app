@@ -1,3 +1,3 @@
 <?php
-header('Location: https://firebasestorage.googleapis.com/v0/b/putra-apps-61de7.appspot.com/o/[Putra%20Apps].Yowis.Ben.2.(2019).WEB-DL.mp4?alt=media&token=703999c0-3a81-4b80-a596-77ef36bd26ee');
+header('Location: https://www.googleapis.com/drive/v3/files/1fPd9XMssI9hJvAvCDiBgHJjq7BN_Bu0h?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
 ?>
