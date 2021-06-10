@@ -1,3 +1,3 @@
 <?php
-header('Location: https://firebasestorage.googleapis.com/v0/b/putra-apps-61de7.appspot.com/o/[narashika.cc]%20trntbsn.2016.BluRay.ID.360p.mp4?alt=media&token=20ea25c9-ed77-43cf-a89a-9501f3784d22');
+header('Location: https://www.googleapis.com/drive/v3/files/1VqxUuJMsgjexXsMBsPxkQQeWJ7QrhD4m?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
 ?>
