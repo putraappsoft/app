@@ -1,30 +1,27 @@
 <?php
-
-$nama_file = "video";
-ignore_user_abort(true);
-ini_set("max_execution_time",false);
-ini_set("memory_limit","3072M");
-set_time_limit(false);
-$file_id = '1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW';
-$url = 'https://drive.google.com/get_video_info?docid' . $file_id;
-$grab = file_get_contents($url);
-parse_str($grab,$qc);
-$go = explode('|',$qc['fmt_stream_map']);
-unset($file_id,$url);
-$ch = curl_init();
-$options = array(
-CURLOPT_URL=>$go[1],
-CURLOPT_SSL_VERIFYPEER=>false,
-CURLOPT_RETURNTRANSFER=>true,
-CURLOPT_USERAGENT=>"Mozilla/5.0 (Windows NT 6.1; rv:50.0) Gecko/20100101 Firefox/50.0",
-CURLOPT_ENCODING=>"",
-CURLOPT_FOLLOWLOCATION=>true,
-);
-curl_setopt_array($ch,$options);
-$q = curl_exec($ch);
-$handle = fopen($nama_file,"w");
-fwrite($handle,$q);
-fclose($handle);
-if (file_exists($nama_file)) {
-header("location:".$nama_file);
+#ini kalau di google drive hasil urlnya di copy lalu di paste ke IDM pasti error file ga bisa di download
+$id='1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW'; //https://drive.google.com/file/d/0B1yg8jfnzlKSRWlmcVhUejZOZEE
+$dt=file_get_contents("https://drive.google.com/get_video_info?docid=$id&el=embedded&ps=default&eurl=&gl=US&hl=en");
+$x=explode("&",$dt);
+$t=array(); $g=array(); $h=array();
+echo "<pre>\r\n";
+foreach($x as $r){
+    $c=explode("=",$r);
+    $n=$c[0]; $v=$c[1];
+    $y=urldecode($v);
+    $t[$n]=$v;
 }
+$streams = explode(',',urldecode($t['url_encoded_fmt_stream_map']));
+foreach($streams as $dt){ 
+    $x=explode("&",$dt);
+    foreach($x as $r){
+        $c=explode("=",$r);
+        $n=$c[0]; $v=$c[1];
+        $h[$n]=preg_replace("/\/[^\/]+\.(google|googlevideo)\.com/","/redirector.googlevideo.com",urldecode($v));
+    }
+    $g[]=$h;
+}
+print_r($g);
+
+echo "\r\n</pre>";
+?>
