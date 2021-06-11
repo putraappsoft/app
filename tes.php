@@ -10,7 +10,7 @@ function curl($url){
 
 function Drive($id) {
     $o = [];
-    $url = "https://docs.google.com/get_video_info?docid=$id";
+    $url = "https://drive.google.com/get_video_info?docid=$id";
     $get = curl($url);
 
     parse_str($get, $out);
