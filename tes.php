@@ -1,6 +1,5 @@
 <?php
-#ini kalau di google drive hasil urlnya di copy lalu di paste ke IDM pasti error file ga bisa di download
-$id='1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW'; //https://drive.google.com/file/d/0B1yg8jfnzlKSRWlmcVhUejZOZEE
+$id='1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW';
 $dt=file_get_contents("https://drive.google.com/get_video_info?docid=$id&el=embedded&ps=default&eurl=&gl=US&hl=en");
 $x=explode("&",$dt);
 $t=array(); $g=array(); $h=array();
