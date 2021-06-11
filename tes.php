@@ -1,26 +1,45 @@
 <?php
-$id='1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW';
-$dt=file_get_contents("https://drive.google.com/get_video_info?docid=$id&el=embedded&ps=default&eurl=&gl=US&hl=en");
-$x=explode("&",$dt);
-$t=array(); $g=array(); $h=array();
-echo "<pre>\r\n";
-foreach($x as $r){
-    $c=explode("=",$r);
-    $n=$c[0]; $v=$c[1];
-    $y=urldecode($v);
-    $t[$n]=$v;
+function curl($url){
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch,CURLOPT_RETURNTRANSFER, $return);
+    $result = curl_exec($ch);
+    curl_close($ch);
+    return $result;
 }
-$streams = explode(',',urldecode($t['url_encoded_fmt_stream_map']));
-foreach($streams as $dt){ 
-    $x=explode("&",$dt);
-    foreach($x as $r){
-        $c=explode("=",$r);
-        $n=$c[0]; $v=$c[1];
-        $h[$n]=preg_replace("/\/[^\/]+\.(google|googlevideo)\.com/","/redirector.googlevideo.com",urldecode($v));
-    }
-    $g[]=$h;
-}
-print_r($g);
 
-echo "\r\n</pre>";
-?>
+function Drive($id) {
+    $o = [];
+    $url = "https://docs.google.com/get_video_info?docid=$id";
+    $get = curl($url);
+
+    parse_str($get, $out);
+    $data = explode(",", $out["fmt_stream_map"]);
+
+    foreach($data as $d) {
+        switch ((int)substr($d, 0, 2)) {
+            case 18:
+                $r = "360P";
+                break;
+            case 22:
+                $r = "720P";
+                break;
+            case 37:
+                $r = "1080P";
+                break;
+            case 59:
+                $r = "480P";
+                break;
+            default:
+                break;
+        }
+        $o[$r] = substr(preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com", $d), 3);
+    }
+    ksort($o);
+    return $o;
+}
+$jw = Drive(1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW);
+
+foreach ($jw as $k => $r) {
+    echo json_encode(array("file"=> $r, "type"=> "video/mp4", "label"=> $k))."\n";
+}
