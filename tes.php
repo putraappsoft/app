@@ -42,4 +42,3 @@ $jw = Drive(1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW);
 
 foreach ($jw as $k => $r) {
     echo json_encode(array("file"=> $r, "type"=> "video/mp4", "label"=> $k))."\n";
-}
