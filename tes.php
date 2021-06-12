@@ -5,9 +5,6 @@ $url = 'https://www.blogger.com/video.g?token=' .
 $file_id;
 $content = file_get_contents( $url );
 
-parse_str( $content, $params );
-$fmt_stream_map = explode( '|', $params['fmt_stream_map'] );
-
 echo '<pre>';
-print_r( $fmt_stream_map );
+print_r( $content );
 echo '</p>';
