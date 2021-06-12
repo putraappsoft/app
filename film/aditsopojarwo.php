@@ -1,3 +1,3 @@
 <?php
-header('Location: https://www.googleapis.com/drive/v3/files/1-VmD2-uJA2sThBged23c1CmS3Nknq3Nn?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
+header('Location: https://animecrot.xyz/token=AD6v5dwDDfgo5TTOLPjrtoiP0Di0i-bbn4x2tiyv2deFVXh9o4S1lX4bllX7ZD-LbR20XRXj4lOQb7TPGov72iL0-FD2Sa_1Y5uXh037hZInnONhILXK1KPbhcMnBH6A3oiqrcwkMhX0');
 ?>
