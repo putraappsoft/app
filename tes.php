@@ -1,39 +1,46 @@
 <?php
 
-function Drive($link) {
-    $url = urldecode($link);
-    $get = curl1($url);
-    $data = explode(',["fmt_stream_map","', $get);
-    $data = explode('"]', $data[1]);
-    $data = str_replace(array('\u003d', '\u0026'), array('=', '&'), $data[0]);
-    $data = explode(',', $data);
-    asort($data);
-    foreach($data as $list) {
-        $data2 = explode('|', $list);
-        if($data2[0] == 37) {$q1080p = preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]);}    // 1080P
-        if($data2[0] == 22) {$q720p = preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]);}     // 720P
-        if($data2[0] == 59) {$q480p = preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]);}     // 480P
-        if($data2[0] == 18) {$q360p = preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]);}     // 360P
+function curl($url){
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $url);
+    curl_setopt($ch,CURLOPT_RETURNTRANSFER, $return);
+    $result = curl_exec($ch);
+    curl_close($ch);
+    return $result;
+}
+
+function Drive($id) {
+    $o = [];
+    $url = "https://docs.google.com/get_video_info?docid=$id";
+    $get = curl($url);
+
+    parse_str($get, $out);
+    $data = explode(",", $out["fmt_stream_map"]);
+
+    foreach($data as $d) {
+        switch ((int)substr($d, 0, 2)) {
+            case 18:
+                $r = "360P";
+                break;
+            case 22:
+                $r = "720P";
+                break;
+            case 37:
+                $r = "1080P";
+                break;
+            case 59:
+                $r = "480P";
+                break;
+            default:
+                break;
+        }
+        $o[$r] = substr(preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com", $d), 3);
     }
-    $js[0][0] = "$q1080p";
-    $js[0][1] = "$q720p";
-    $js[0][2] = "$q480p";
-    $js[0][3] = "$q360p";
-    $js[1][0] = "1080P";
-    $js[1][1] = "720P";
-    $js[1][2] = "480P";
-    $js[1][3] = "360P";
-    return $js;     
+    ksort($o);
+    return $o;
 }
-if ($jw[0][0] != "") {
-    echo('{file: "'.urldecode($jw[0][0]).'",type: "video/mp4",label: "'.urldecode($jw[1][0]).'"},');
-}
-if ($jw[0][1] != "") {
-    echo('{file: "'.urldecode($jw[0][1]).'",type: "video/mp4",label: "'.urldecode($jw[1][1]).'"},');
-}   
-if ($jw[0][2] != "") {
-    echo('{file: "'.urldecode($jw[0][2]).'",type: "video/mp4",label: "'.urldecode($jw[1][2]).'"},');
-}   
-if ($jw[0][3] != "") {
-    echo('{file: "'.urldecode($jw[0][3]).'",type: "video/mp4",label: "'.urldecode($jw[1][3]).'"},');
+$jw = Drive(1gZoOrMqvSOATuMuxd47SVoXUUe14IY0t);
+
+foreach ($jw as $k => $r) {
+    echo json_encode(array("file"=> $r, "type"=> "video/mp4", "label"=> $k))."\n";
 }
