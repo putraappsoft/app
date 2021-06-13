@@ -1,46 +1,28 @@
 <?php
+error_reporting(E_ERROR | E_PARSE);
+if(!function_exists('curl1'))
+require_once dirname(__FILE__).'/curl.class.php';
+function Drive($link) {
+	$url = urldecode($link);
+	$get = curl1($url);
 
-function curl($url){
-    $ch = curl_init();
-    curl_setopt($ch, CURLOPT_URL, $url);
-    curl_setopt($ch,CURLOPT_RETURNTRANSFER, $return);
-    $result = curl_exec($ch);
-    curl_close($ch);
-    return $result;
+	$data = explode(',["fmt_stream_map","', $get);
+	$data = explode('"]', $data[1]);
+	$data = str_replace(array('\u003d', '\u0026'), array('=', '&'), $data[0]);
+	$data = explode(',', $data);
+	asort($data);
+	foreach($data as $list) {
+		$data2 = explode('|', $list);
+		if($data2[0] == 37) {$q1080p	.= '1080p=>'.preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]).'|';}
+		if($data2[0] == 22) {$q720p	.= '720p=>'.preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]).'|';}
+		if($data2[0] == 59) {$q480p	.= '480p=>'.preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]).'|';}
+		if($data2[0] == 18) {$q360p	.= '360p=>'.preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com",$data2[1]).'|';}
+	}
+	$js = $q1080p.'<br />';
+	$js .= $q720p.'<br />';
+	$js .= $q480p.'<br />';
+	$js .= $q360p.'<br />';
+	return rtrim($js, '|<br />');
 }
 
-function Drive($id) {
-    $o = [];
-    $url = "https://docs.google.com/get_video_info?docid=$id";
-    $get = curl($url);
-
-    parse_str($get, $out);
-    $data = explode(",", $out["fmt_stream_map"]);
-
-    foreach($data as $d) {
-        switch ((int)substr($d, 0, 2)) {
-            case 18:
-                $r = "360P";
-                break;
-            case 22:
-                $r = "720P";
-                break;
-            case 37:
-                $r = "1080P";
-                break;
-            case 59:
-                $r = "480P";
-                break;
-            default:
-                break;
-        }
-        $o[$r] = substr(preg_replace("/\/[^\/]+\.google\.com/","/redirector.googlevideo.com", $d), 3);
-    }
-    ksort($o);
-    return $o;
-}
-$jw = Drive(1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW);
-
-foreach ($jw as $k => $r) {
-    echo json_encode(array("file"=> $r, "type"=> "video/mp4", "label"=> $k))."\n";
-}
+echo Drive('https://drive.google.com/file/d/1pnKbOlaC7yJ7kA21tPinhbkRr9LFA6QW/preview');
