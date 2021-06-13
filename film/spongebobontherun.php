@@ -1,3 +1,3 @@
 <?php
-header('Location: https://www.googleapis.com/drive/v3/files/1QVdgpWJ3PAnR6Tnp6awatUjU39xiqwMl?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
+header('Location: https://gateway.pinata.cloud/ipfs/Qmb3r9isgUBAuTc8nUe2nhmFeTchA1ogP8GmLnmdVy7SC4');
 ?>
