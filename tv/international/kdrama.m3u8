@@ -1,6 +1,13 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=705720,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=480x360
-http://210.210.155.35/qwr9ew/s/s42/02.m3u8
-#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1727459,CODECS="avc1.4d401e,mp4a.40.2",RESOLUTION=640x480
-http://210.210.155.35/qwr9ew/s/s42/01.m3u8
+#EXT-X-TARGETDURATION:11
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:10.890000,
+https://redirector-putraappsoft.herokuapp.com/error/error0.ts
+#EXTINF:9.900000,
+https://redirector-putraappsoft.herokuapp.com/error/error1.ts
+#EXTINF:9.900000,
+https://redirector-putraappsoft.herokuapp.com/error/error2.ts
+#EXTINF:0.231000,
+https://redirector-putraappsoft.herokuapp.com/error/error3.ts
+#EXT-X-ENDLIST
