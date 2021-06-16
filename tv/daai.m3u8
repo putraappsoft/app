@@ -1,4 +1,13 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=483902,RESOLUTION=512x288,CODECS="avc1.66.30,mp4a.40.2"
-https://e2-us-1.nim.mivo.tv/daaitv/daaitv2_all/skrz1j8exe/daaitv2_288p/chunks.m3u8
+#EXT-X-TARGETDURATION:10
+#EXT-X-MEDIA-SEQUENCE:0
+#EXTINF:10.000000,
+https://redirector-putraappsoft.herokuapp.com/error/vid0.ts
+#EXTINF:10.000000,
+https://redirector-putraappsoft.herokuapp.com/error/vid1.ts
+#EXTINF:10.000000,
+https://redirector-putraappsoft.herokuapp.com/error/vid2.ts
+#EXTINF:1.320000,
+https://redirector-putraappsoft.herokuapp.com/error/vid3.ts
+#EXT-X-ENDLIST
