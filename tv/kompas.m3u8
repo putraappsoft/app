@@ -1,13 +1,4 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-TARGETDURATION:10
-#EXT-X-MEDIA-SEQUENCE:0
-#EXTINF:10.000000,
-https://redirector-putraappsoft.herokuapp.com/error/vid0.ts
-#EXTINF:10.000000,
-https://redirector-putraappsoft.herokuapp.com/error/vid1.ts
-#EXTINF:10.000000,
-https://redirector-putraappsoft.herokuapp.com/error/vid2.ts
-#EXTINF:1.320000,
-https://redirector-putraappsoft.herokuapp.com/error/vid3.ts
-#EXT-X-ENDLIST
+#EXT-X-STREAM-INF:BANDWIDTH=1459453,RESOLUTION=654x480,CODECS="avc1.42c020,mp4a.40.2"
+https://e1-hk-1.nim.mivo.tv/mn9vbvrvu25nv5x8/kompastv_480p/chunks.m3u8?nimblesessionid=496327787&wmsAuthSign=c2VydmVyX3RpbWU9Ni8xNi8yMDIxIDg6NDE6MzIgQU0maGFzaF92YWx1ZT1TZkU3UDUrT05pZjdlb20vY1U5N2VnPT0mdmFsaWRtaW51dGVzPTE0NDAmaWQ9MTAzNjUyMDJ8MTE0LjUuMjQ3LjI1NA==
