@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+	<channel>
+		<title><![CDATA[TES]]></title>
+		<image>
+			<url>https://raw.githubusercontent.com/putraappsoft/servercadangan/putraappsoft-patch-1/TV%20logo/tv.jpg</url>
+			</image>
+		<itunes:image href="https://raw.githubusercontent.com/putraappsoft/servercadangan/putraappsoft-patch-1/TV%20logo/tv.jpg"/>
+<item>
+			<title><![CDATA[K-POP TV Streaming Online]]></title>
+			<description><![CDATA[ðŸ”µ<b>K-POP TV SERVER MAINTENANCE</b>
+<br><b>Terakhir Di Update Admin:</b></br>
+<br>Rabu, 16 Juni 2021 - <b>05:55 WIB</b></br>
+<br></br>
+<br>All Music Video Korean Pop</br>
+<br></br>
+<br><b>Informasi Server</b></br>
+<br><b>Database server: putraapps</b></br>
+]]></description>
+			<link>https://www.putraappsoft.eu.org/2021/06/nonton-tv-luar-negeri-kpoptv-korea.html</link>
+			<guid isPermaLink="false">0444</guid>
+			<enclosure url="https://redirector-putraappsoft.herokuapp.com/tv/international/kpoptv.m3u8" length="3443902" type="video/m3u8"/>
+			<itunes:image href="https://redirector-putraappsoft.herokuapp.com/thumbnail/tv/international/kpoptv.jpeg
+"/>
+		</item>
+		<item>
+			<title><![CDATA[MBC Streaming Online]]></title>
+			<description><![CDATA[ðŸ”´<b>MBC SERVER ONAIR</b>
+<br><b>Terakhir Di Update Admin:</b></br>
+<br>Rabu, 16 Juni 2021 - <b>05:55 WIB</b></br>
+<br></br>
+<br>Munhwa Broadcasting Corporation (MBC, bahasa Korea: 문화방송주식회사, 文化放送株式會社) adalah stasiun televisi dan stasiun radio penyiaran publik Korea Selatan. Dalam bahasa Korea, munhwa berarti budaya.</br>
+<br><b><i>sumber: wikipedia</i></b></br>
+<br></br>
+<br><b>Informasi Server</b></br>
+<br><b>Database server: putraapps</b></br>
+]]></description>
+			<link>https://www.putraappsoft.eu.org/2021/06/nonton-tv-luar-negeri-mbc-korea.html</link>
+			<guid isPermaLink="false">0333</guid>
+			<enclosure url="https://redirector-putraappsoft.herokuapp.com/tv/international/mbc.m3u8" length="3443902" type="video/m3u8"/>
+			<itunes:image href="https://redirector-putraappsoft.herokuapp.com/thumbnail/tv/international/mbc.jpg
+"/>
+		</item>
+		<item>
+			<title><![CDATA[jtbc Streaming Online]]></title>
+			<description><![CDATA[ðŸ”´<b>jtbc SERVER ONAIR</b>
+<br><b>Terakhir Di Update Admin:</b></br>
+<br>Rabu, 16 Juni 2021 - <b>05:55 WIB</b></br>
+<br></br>
+<br>Joongang Tongyang Broadcasting Company bergaya jtbc adalah jaringan televisi berbayar nasional Korea Selatan, di mana pemegang saham terbesarnya adalah JoongAng Ilbo /The JoongAng Group dengan 25% saham.</br>
+<br><b><i>sumber: wikipedia</i></b></br>
+<br></br>
+<br><b>Informasi Server</b></br>
+<br><b>Database server: putraapps</b></br>
+]]></description>
+			<link>https://www.putraappsoft.eu.org/2021/06/nonton-tv-luar-negeri-jtbc-korea.html</link>
+			<guid isPermaLink="false">0222</guid>
+			<enclosure url="https://redirector-putraappsoft.herokuapp.com/tv/international/jtbc.m3u8" length="3443902" type="video/m3u8"/>
+			<itunes:image href="https://redirector-putraappsoft.herokuapp.com/thumbnail/tv/international/jtbc.jpg
+"/>
+		</item>
+		<item>
+			<title><![CDATA[Mnet Streaming Online]]></title>
+			<description><![CDATA[ðŸ”´<b>Mnet SERVER ONAIR</b>
+<br><b>Terakhir Di Update Admin:</b></br>
+<br>Rabu, 16 Juni 2021 - <b>05:55 WIB</b></br>
+<br></br>
+<br>Mnet adalah stasiun televisi kabel Korea Selatan dengan tayangan musik dan hiburan. Salah satu dari televisi kabel berlangganan dari CJ Media. Target televisi kabel yang memiliki lebih dari 10 juta pelanggan ini adalah pemirsa usia belasan tahun.</br>
+<br><b><i>sumber: wikipedia</i></b></br>
+<br></br>
+<br><b>Informasi Server</b></br>
+<br><b>Database server: putraapps</b></br>
+]]></description>
+			<link>https://www.putraappsoft.eu.org/2021/06/nonton-tv-luar-negeri-mnet-korea.html</link>
+			<guid isPermaLink="false">0111</guid>
+			<enclosure url="https://redirector-putraappsoft.herokuapp.com/tv/international/mnet.m3u8" length="3443902" type="video/m3u8"/>
+			<itunes:image href="https://redirector-putraappsoft.herokuapp.com/thumbnail/tv/international/mnet.jpg
+"/>
+		</item>
+		</channel>
+</rss>
