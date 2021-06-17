@@ -76,5 +76,22 @@
 			<itunes:image href="https://redirector-putraappsoft.herokuapp.com/thumbnail/tv/international/mnet.jpg
 "/>
 		</item>
+		<item>
+			<title><![CDATA[K-POP TV Streaming Online]]></title>
+			<description><![CDATA[ðŸ”µ<b>K-POP TV SERVER MAINTENANCE</b>
+<br><b>Terakhir Di Update Admin:</b></br>
+<br>Rabu, 16 Juni 2021 - <b>05:55 WIB</b></br>
+<br></br>
+<br>All Music Video Korean Pop</br>
+<br></br>
+<br><b>Informasi Server</b></br>
+<br><b>Database server: putraapps</b></br>
+]]></description>
+			<link>https://www.putraappsoft.eu.org/2021/06/nonton-tv-luar-negeri-kpoptv-korea.html</link>
+			<guid isPermaLink="false">08373737</guid>
+			<enclosure url="https://redirector-putraappsoft.herokuapp.com/tv/international/kpoptv.m3u8" length="3443902" type="video/m3u8"/>
+			<itunes:image href="https://redirector-putraappsoft.herokuapp.com/thumbnail/tv/international/kpoptv.jpeg
+"/>
+		</item>
 		</channel>
 </rss>
