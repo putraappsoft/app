@@ -1,4 +1,8 @@
 #EXTM3U
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:PROGRAM-ID=1,CLOSED-CAPTIONS=NONE,BANDWIDTH=375000,NAME=540p,RESOLUTION=960x540
-http://hi.hi-back.masuk.web.id/c.m3u8?shinta=GoodBye&coday=ffd67d44870fda644560c47682a87a73&cdy=aab3238922bcc25a6f606eb525ffdc560fb3069a97a8fb9df1d75e6456ecef11
+#EXT-X-STREAM-INF:BANDWIDTH=494100,RESOLUTION=426x240,NAME="240p"
+https://cdn11jtedge.useetv.com/joss/130/rtv/chunklist_w39040960_b494100_sleng.m3u8?enc=hq2oTcRSKnTjxUqFPAnYUg&uid=&exp=1624812635
+#EXT-X-STREAM-INF:BANDWIDTH=684100,RESOLUTION=640x360,NAME="360p"
+https://cdn11jtedge.useetv.com/joss/130/rtv/chunklist_w39040960_b684100_sleng.m3u8?enc=hq2oTcRSKnTjxUqFPAnYUg&uid=&exp=1624812635
+#EXT-X-STREAM-INF:BANDWIDTH=1004100,RESOLUTION=960x540,NAME="540p"
+https://cdn11jtedge.useetv.com/joss/130/rtv/chunklist_w39040960_b1004100_sleng.m3u8?enc=hq2oTcRSKnTjxUqFPAnYUg&uid=&exp=1624812635
