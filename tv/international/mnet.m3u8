@@ -1,4 +1,5 @@
-#EXTM3U
+#EXTM3U 
 #EXT-X-VERSION:3
-#EXT-X-STREAM-INF:BANDWIDTH=1491542,CODECS="avc1.640028,mp4a.40.2",RESOLUTION=960x540
-http://51.81.66.195:1935/krtv/mnet_540/chunklist_w1707397716.m3u8
+#EXTVLCOPT:http-user-agent="tv/9.6 (Linux;Android) ExoPlayerLib/2.8.4"
+#EXT-X-STREAM-INF:
+http://51.81.66.195:1935/krtv/mnet_540/playlist.m3u8
