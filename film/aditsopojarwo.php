@@ -1,3 +1,3 @@
 <?php
-header('Location: https://185.217.95.233/wp-content/themes/muvipro/redirect/?tokenkey=aHR0cHM6Ly9iaXRiYWxsLmItY2RuLm5ldC9tb3ZpZXMvZGlzazMvMjAyMS0wNS9NQkFIL0FkaXQuU29wby5KYXJ3by5UaGUuTW92aWUuMjAyMS5XRUJETC4xMDgwcC5Dcm90cy5tcDQ/ZG93bmxvYWQ9dHJ1ZSZ0aXRsZT1BZGl0IFNvcG8gSmFyd286IFRoZSBNb3ZpZSAoMjAyMSk=');
+header('Location: https://www.googleapis.com/drive/v3/files/1nPEGBEHTL9H3rdohk0MUZfpvK3shHgU6?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
 ?>
