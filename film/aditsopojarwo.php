@@ -1,3 +1,3 @@
 <?php
-header('Location: https://bitball.b-cdn.net/movies/disk3/2021-05/MBAH/Adit.Sopo.Jarwo.The.Movie.2021.WEBDL.1080p.Crots.mp4?download=true&title=Adit%20Sopo%20Jarwo:%20The%20Movie%20(2021)');
+header('Location: https://185.217.95.233/wp-content/themes/muvipro/redirect/?tokenkey=aHR0cHM6Ly9iaXRiYWxsLmItY2RuLm5ldC9tb3ZpZXMvZGlzazMvMjAyMS0wNS9NQkFIL0FkaXQuU29wby5KYXJ3by5UaGUuTW92aWUuMjAyMS5XRUJETC4xMDgwcC5Dcm90cy5tcDQ/ZG93bmxvYWQ9dHJ1ZSZ0aXRsZT1BZGl0IFNvcG8gSmFyd286IFRoZSBNb3ZpZSAoMjAyMSk=');
 ?>
