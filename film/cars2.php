@@ -1,3 +1,3 @@
 <?php
-header('Location: https://www.googleapis.com/drive/v3/files/1KZDFMa8gDfxUlFzqXPktZSa5H-kjdY2o?alt=media&key=AIzaSyD6Sv72543woJFCdr4_DKMnh7cP6olZfGA');
+header('Location: https://lh3.googleusercontent.com/ZoZmtDYUPUUzVm9ZkF7HbM2uxF80e5aNOEWOX-ks7hMEmIkmLHMlIz4nbZCsGoVT0EIDej-dW5wLtw_eZA=m22');
 ?>
