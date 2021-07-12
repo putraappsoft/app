@@ -1,3 +1,3 @@
 <?php
-header('Location: https://github.com/putraappsoft/data/raw/main/app/version/download/Putra%20Apps%20%5BV.0.9%5D%20release.apk');
+header('Location: support.putraappsoft.eu.org/cdn/delivey/Putra Apps [V.0.9] release.apk');
 ?>
