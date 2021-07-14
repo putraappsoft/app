@@ -41,7 +41,7 @@ echo '</script>';
 <div id="picasa" class="picasa"></div>
 <script type="text/javascript">
  jwplayer('picasa').setup({
-        sources: [{"file":"https://putraproduction-videoplayer.netlify.app/eps/secretnumbervsweeekly/720p/index.m3u8","label":"720p","type":"m3u8"}], 
+        sources: [{"file":"https://putraproduction-videoplayer.netlify.app/eps/secretnumbervsweeekly/720p/index.m3u8","type":"m3u8"}], 
 				tracks:[
 				{
 					file: "https://putraproduction-videoplayer.netlify.app/eps/tes.srt",
