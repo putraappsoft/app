@@ -18,6 +18,7 @@ echo '<script type="text/javascript">';
 print_r( $content );
 echo '</script>';
 ?>
+
 <style type="text/css">
 *{margin:0;padding:0}#picasa{position:absolute;width:100%!important;height:100%!important}
 .jw-button-color:hover, 
