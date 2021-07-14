@@ -39,7 +39,7 @@ print_r( $content );
 <div id="picasa" class="picasa"></div>
 <script type="text/javascript">
  jwplayer('picasa').setup({
-        sources: [{"file":"https://putraproduction-videoplayer.netlify.app/eps/secretnumbervsweeekly/720p/index.m3u8","type":"m3u8"}], 
+        sources: [{"file":"\/\/stream5.superitu.xyz\/gkqiBuM\/720.mp4","label":"720p","type":"mp4","default":"false"},{"file":"\/\/stream5.superitu.xyz\/gkqiBuM\/360.mp4","label":"360p","type":"mp4","default":"true"}], 
 				tracks:[
 				{
 					file: "https://putraproduction-videoplayer.netlify.app/eps/tes.srt",
