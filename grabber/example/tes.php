@@ -7,16 +7,10 @@
 <META NAME="GOOGLEBOT" CONTENT="NOINDEX" />
 <meta name="referrer" content="origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<script type="text/javascript" src="https://putraproduction-videoplayer.netlify.app/player.js"></script>
-<?php
-
-$file_id = 'key.txt';
-$url = 'https://redirector-putraappsoft.herokuapp.com/' . $file_id;
-$content = file_get_contents( $url );
-
-print_r( $content );
-?>
-
+    <!--<script type="text/javascript" src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>-->
+<script src="/player.js"></script>
+<script type="text/javascript">
+jwplayer.key='ITWMv7t88JGzI0xPwW8I0+LveiXX9SWbfdmt0ArUSyc='</script>
 <style type="text/css">
 *{margin:0;padding:0}#picasa{position:absolute;width:100%!important;height:100%!important}
 .jw-button-color:hover, 
@@ -39,10 +33,10 @@ print_r( $content );
 <div id="picasa" class="picasa"></div>
 <script type="text/javascript">
  jwplayer('picasa').setup({
-        sources: [{"file":"//putraproduction-videoplayer.netlify.app/eps/secretnumbervsweeekly/720p/index.m3u8","type":"mp4"}], 
+        sources: [{"file":"\/\/putraproduction-videoplayer.netlify.app\/eps\/secretnumbervsweeekly\/720p\/index.m3u8","label":"720p","type":"m3u8"}], 
 				tracks:[
 				{
-					file: "https://dramaid.club/wp-content/uploads/2021/07/id-Racket-Boys-ep-13-NEXT.srt",
+					file: "https://putraproduction-videoplayer.netlify.app/eps/tes.srt",
 					label: "Indonesia", //language
 					kind: "captions",
 					"default": true
@@ -182,6 +176,9 @@ print_r( $content );
     fullscreen: "true",
         autostart: true,
     });
+  jwplayer().on("error", function() { 
+ window.location="https://www.putraproduction.eu.org"; 
+ });
 </script>
 </body>
 </html>
