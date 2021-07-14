@@ -39,7 +39,7 @@ print_r( $content );
 <div id="picasa" class="picasa"></div>
 <script type="text/javascript">
  jwplayer('picasa').setup({
-        sources: [{"file":"\/\/stream5.superitu.xyz\/gkqiBuM\/720.mp4","label":"720p","type":"mp4","default":"false"},{"file":"\/\/stream5.superitu.xyz\/gkqiBuM\/360.mp4","label":"360p","type":"mp4","default":"true"}], 
+        sources: [{"file":"//server1.superitu.xyz/hls/r0K8K2j/file_,360,.mp4.urlset/master.m3u8","type":"m3u8"}], 
 				tracks:[
 				{
 					file: "https://dramaid.club/wp-content/uploads/2021/07/id-Racket-Boys-ep-13-NEXT.srt",
