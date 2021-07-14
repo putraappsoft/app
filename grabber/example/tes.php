@@ -36,6 +36,7 @@ $content = file_get_contents( $url );
 print_r( $content );
 ?>
 <center>
+	
 <div id="picasa" class="picasa"></div>
 <script type="text/javascript">
  jwplayer('picasa').setup({
