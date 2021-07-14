@@ -1,4 +1,2 @@
-<?php
-$link = ""; // Link goes here!
-print "<a href="'.$link.'">https://redirector-putraappsoft.herokuapp.com/key.txt</a>";
-?>
+$link_address = '#';
+echo '<a href="$link_address">https://redirector-putraappsoft.herokuapp.com/key.txt</a>';
