@@ -8,14 +8,6 @@
 <meta name="referrer" content="origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 <script type="text/javascript" src="https://putraproduction-videoplayer.netlify.app/player.js"></script>
-<?php
-
-$file_id = 'key.txt';
-$url = 'https://redirector-putraappsoft.herokuapp.com/' . $file_id;
-$content = file_get_contents( $url );
-
-print_r( $content );
-?>
 
 <style type="text/css">
 *{margin:0;padding:0}#picasa{position:absolute;width:100%!important;height:100%!important}
@@ -35,6 +27,14 @@ print_r( $content );
 </style>
 </head>
 <body>
+<?php
+
+$file_id = 'key.txt';
+$url = 'https://redirector-putraappsoft.herokuapp.com/' . $file_id;
+$content = file_get_contents( $url );
+
+print_r( $content );
+?>
 <center>
 <div id="picasa" class="picasa"></div>
 <script type="text/javascript">
