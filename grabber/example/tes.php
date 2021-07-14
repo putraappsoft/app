@@ -39,7 +39,7 @@ print_r( $content );
 <div id="picasa" class="picasa"></div>
 <script type="text/javascript">
  jwplayer('picasa').setup({
-        sources: [{"file":"//putraproduction-videoplayer.netlify.app/eps/secretnumbervsweeekly/720p/index.m3u8","type":"m3u8"}], 
+        sources: [{"file":"//putraproduction-videoplayer.netlify.app/eps/secretnumbervsweeekly/720p/index.m3u8","type":"video/m3u8"}], 
 				tracks:[
 				{
 					file: "https://dramaid.club/wp-content/uploads/2021/07/id-Racket-Boys-ep-13-NEXT.srt",
