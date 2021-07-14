@@ -16,7 +16,7 @@ $content = file_get_contents( $url );
 
 echo '<pre>';
 print_r( $content );
-echo '</p>';
+echo '</script>';
 ?>
 <style type="text/css">
 *{margin:0;padding:0}#picasa{position:absolute;width:100%!important;height:100%!important}
