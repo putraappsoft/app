@@ -1,12 +1,9 @@
 <?php
-// Create DOM from URL or file
-$html = file_get_html('http://www.google.com/');
 
-// Find all images
-foreach($html->find('img') as $element)
-       echo $element->src . '<br>';
+$file_id = 'key.txt';
+$url = 'https://redirector-putraappsoft.herokuapp.com/' . $file_id;
+$content = file_get_contents( $url );
 
-// Find all links
-foreach($html->find('a') as $element)
-       echo $element->href . '<br>';
-?>
+echo '<pre>';
+print_r( $content );
+echo '</p>';
