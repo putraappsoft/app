@@ -7,7 +7,7 @@
 <META NAME="GOOGLEBOT" CONTENT="NOINDEX" />
 <meta name="referrer" content="origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-<script type="text/javascript" src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>
+<script type="text/javascript" src="https://putraproduction-videoplayer.netlify.app/player.js"></script>
 <?php
 
 $file_id = 'key.txt';
