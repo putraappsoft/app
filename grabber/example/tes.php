@@ -14,7 +14,7 @@ $file_id = 'key.txt';
 $url = 'https://redirector-putraappsoft.herokuapp.com/' . $file_id;
 $content = file_get_contents( $url );
 
-echo '<pre>';
+echo '<script type="text/javascript">';
 print_r( $content );
 echo '</script>';
 ?>
