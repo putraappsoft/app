@@ -42,7 +42,7 @@ print_r( $content );
         sources: [{"file":"\/\/stream5.superitu.xyz\/gkqiBuM\/720.mp4","label":"720p","type":"mp4","default":"false"},{"file":"\/\/stream5.superitu.xyz\/gkqiBuM\/360.mp4","label":"360p","type":"mp4","default":"true"}], 
 				tracks:[
 				{
-					file: "https://putraproduction-videoplayer.netlify.app/eps/tes.srt",
+					file: "https://dramaid.club/wp-content/uploads/2021/07/id-Racket-Boys-ep-13-NEXT.srt",
 					label: "Indonesia", //language
 					kind: "captions",
 					"default": true
