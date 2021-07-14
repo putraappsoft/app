@@ -7,8 +7,7 @@
 <META NAME="GOOGLEBOT" CONTENT="NOINDEX" />
 <meta name="referrer" content="origin">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-    <!--<script type="text/javascript" src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>-->
-<script src="/player.js"></script>
+<script type="text/javascript" src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>
 <script src="https://redirector-putraappsoft.herokuapp.com/jsasu.js"></script>
 <style type="text/css">
 *{margin:0;padding:0}#picasa{position:absolute;width:100%!important;height:100%!important}
