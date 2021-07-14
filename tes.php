@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!--<script type="text/javascript" src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>-->
 <script src="/player.js"></script>
-<?php echo base_url(‘/key.txt’) ?>" />
+<?php echo site_url(‘/key.txt’) ?>" />
 <style type="text/css">
 *{margin:0;padding:0}#picasa{position:absolute;width:100%!important;height:100%!important}
 .jw-button-color:hover, 
