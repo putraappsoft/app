@@ -7,3 +7,4 @@ $content = file_get_contents( $url );
 echo '<pre>';
 print_r( $content );
 echo '</p>';
+?>
