@@ -10,7 +10,7 @@
     <!--<script type="text/javascript" src="//ssl.p.jwpcdn.com/player/v/8.4.1/jwplayer.js"></script>-->
 <script src="/player.js"></script>
 
-<?php $config[‘base_url’] = ‘http://localhost/belajarciphp’ ?>" />
+<?php $config[‘base_url’] = ‘http://google.com’ ?>" />
 
 <style type="text/css">
 *{margin:0;padding:0}#picasa{position:absolute;width:100%!important;height:100%!important}
