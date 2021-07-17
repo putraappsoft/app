@@ -1,3 +1,0 @@
-<script type="text/javascript">
-jwplayer.key='ITWMv7t88JGzI0xPwW8I0+LveiXX9SWbfdmt0ArUSyc='
-</script>
