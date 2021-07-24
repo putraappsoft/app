@@ -5,5 +5,4 @@ include_once("blogger/bloggerClass.php");
 $stream->loadApi($_GET['url']);
 $videoLink = $stream->grab();
 	}
-header('Location: $videoLink');
 ?>
